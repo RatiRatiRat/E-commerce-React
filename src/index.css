@@ -1,0 +1,291 @@
+body{
+  margin: 0%;
+  overflow: hidden;
+}
+
+div.Main{
+  width: 375px;
+  margin: auto;
+  height: 1200px;
+  background-color: white;
+  /* overflow-x: hidden; */
+  overflow: hidden;
+}
+
+div.Navbar{
+  width: 375px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a{
+  display: none;
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+span{
+  cursor: pointer;
+}
+
+div.Side-Bar{
+  width: 275px;
+  height: 1200px;
+  background-color: gainsboro;
+  border: 1px solid black;
+  position: sticky;
+  bottom: 50px;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+
+h1.Side-Menu{
+  margin-left: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+  
+}
+
+h1.Close-Btn{
+  margin-left: 20px;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+img.Mbappe{
+  width: 375px;
+  height: 450px;
+  transition: transform 0.9s ease;
+}
+
+div.Prices{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: sans-serif;
+}
+
+h1.Price{
+  color: #A47551;
+}
+
+span.Strike{
+  color: red;
+  text-decoration: line-through;
+  font-size: 25px;
+}
+
+div.Testimonial{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ transition: transform 0.9s ease;
+ display: flex;
+}
+
+h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-left: 10px;
+  color: #A47551;
+}
+
+p.description{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-left: 8px;
+}
+
+h2.Limited{
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 8px;
+  letter-spacing: 3px;
+}
+
+button{
+  width: 280px;
+  height: 45px;
+  background-color: #A47551;
+  color: white;
+  border-radius: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  outline: none;
+  border-color: #A47551;
+  margin-left: 47px;
+}
+
+div.Counter{
+  display: flex;
+  align-items: center;
+  margin-left: 46px;
+}
+
+button.Increment{
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid #A47551;
+  width: 50px;
+  color: #A47551;
+  font-size: 20px;
+}
+
+h5{
+  margin-left: 40px;
+}
+
+div.Images{
+  display: none;
+}
+
+div.CartItemCounter{
+  top: 4px;
+  background-color: red;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 580px;
+}
+
+span.Quantity{
+    margin-left: 3px;
+    font-size: 13px;
+    color: white;
+}
+
+div.Testimonial{
+  display: block;
+}
+
+div.Add-toCart{
+  display: flex;
+}
+
+div.Counter{
+  display: flex;
+}
+
+button.cart{
+  margin-left: 40px;
+}
+
+div.Add-toCart{
+  margin-left: 40px;
+}
+
+
+
+@media screen and (min-width:1024px) {
+  div.Main{
+    width: 1551px;
+    margin: auto;
+    height: 950px;
+    background-color: white;
+    overflow-x: hidden;
+  }
+
+
+  span.Menu{
+    display: none;
+  }
+
+  div.Navbar{
+    width: 1515px;
+    height: 60px;
+  }
+
+  img.Mbappe{
+    width: 550px;
+    height: 530px;
+    border-radius: 10px;
+    margin-left: 80px;
+  }
+
+  a{
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+  }
+
+  div.Photo-Unify{
+    display: block;
+  }
+
+  div.Images{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    margin-left: 67px;
+    margin-top: 5px;
+  }
+
+  img.Kylian{
+    width: 90px;
+    height: 90px;
+    border-radius: 5px;
+    border: 8px solid #A47551;
+  }
+
+  div.Add-toCart{
+    justify-content: center;
+   
+    margin-right: 50px;
+    margin-top: 150px;
+    display: flex;
+  }
+  div.Prices{
+    display: block;
+    margin-left: 10px;
+  }
+
+  div.Unify{
+    width: 500px;
+    margin-left: 100px;
+  }
+
+  h2{
+    width: 700px;
+    margin-top: 20px;
+  }
+
+  p{
+    width: 365px;
+    /* font-size: 20px; */
+  }
+
+  h3{
+    /* font-size: 24px; */
+    margin-left: 7px;
+  }
+
+  p.description{
+    width: 550px;
+  }
+
+  div.Testimonial{
+    margin-top: 20px;
+    display: flex;
+  }
+
+  div.CartItemCounter{
+    right: 73px;
+    top: 8px;
+  }
+ 
+  span.Quantity{
+    margin-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+ 
+  button.cart{
+    margin-left: 125px;
+  }
+  
+}
